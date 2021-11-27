@@ -1,0 +1,115 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.galaxytechno.permissionsample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:7:5-81
+12-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:7:5-81
+13-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:9:5-65
+14-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:9:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:11:5-80
+15-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:11:22-77
+16    <uses-permission android:name="android.permission.READ_CONTACTS" />
+16-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:13:5-71
+16-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:13:22-69
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:7:5-81
+17-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:16:5-79
+18-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:16:22-76
+19    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+19-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:17:5-85
+19-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:17:22-82
+20
+21    <application
+21-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:19:5-35:19
+22        android:allowBackup="true"
+22-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:20:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.7.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\f151290c6ded99e73cc30cce4233ae32\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:21:9-43
+26        android:label="@string/app_name"
+26-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:22:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:23:9-54
+28        android:supportsRtl="true"
+28-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:24:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.PermissionSample" >
+30-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:25:9-54
+31        <activity
+31-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:26:9-34:20
+32            android:name="com.galaxytechno.permissionsample.MainActivity"
+32-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:27:13-41
+33            android:exported="true" >
+33-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:28:13-36
+34            <intent-filter>
+34-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:29:13-33:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:30:17-69
+35-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:30:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:32:17-77
+37-->D:\Android Projects\PermissionSample\app\src\main\AndroidManifest.xml:32:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\754960a144b064723c0bea66abe394ef\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+41            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+41-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\754960a144b064723c0bea66abe394ef\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+42            android:exported="false"
+42-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\754960a144b064723c0bea66abe394ef\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+43-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\754960a144b064723c0bea66abe394ef\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+44
+45        <meta-data
+45-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cf4cbd6d1407bd9befd9522e45334d02\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+46            android:name="com.google.android.gms.version"
+46-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cf4cbd6d1407bd9befd9522e45334d02\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+47            android:value="@integer/google_play_services_version" />
+47-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cf4cbd6d1407bd9befd9522e45334d02\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.galaxytechno.permissionsample.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\cb617eb54cd2cd0ae69b65f31e00fe95\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\ae924bdef1f7e2531745028cd5061da5\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\ae924bdef1f7e2531745028cd5061da5\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Shine Thyu Zan\.gradle\caches\transforms-3\ae924bdef1f7e2531745028cd5061da5\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>

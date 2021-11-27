@@ -1,0 +1,2 @@
+com/galaxytechno/permissionsample/BuildConfig.java
+ com.galaxytechno.permissionsample.BuildConfig
