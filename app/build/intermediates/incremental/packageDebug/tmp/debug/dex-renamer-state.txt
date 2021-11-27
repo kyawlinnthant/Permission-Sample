@@ -1,4 +1,4 @@
-#Sat Nov 27 15:31:22 MMT 2021
+#Sat Nov 27 16:40:51 MMT 2021
 base.2=D\:\\Android Projects\\PermissionSample\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\15\\classes.dex
 path.2=15/classes.dex
 base.1=D\:\\Android Projects\\PermissionSample\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
