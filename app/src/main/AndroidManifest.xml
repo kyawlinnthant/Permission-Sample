@@ -4,16 +4,17 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
+    <!--wifi or mobile data and can provide location approximately to city level location-->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--user both wifi,mobile data + GPS that can provide precise location -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--From Android 10 and higher, we need this to access the location -->
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 
     <application
